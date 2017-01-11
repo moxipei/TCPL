@@ -1,0 +1,6 @@
+/.vs/*
+/Debug/*
+*.db
+*.opendb
+*.filters
+/TCPLExercise/Debug/*
