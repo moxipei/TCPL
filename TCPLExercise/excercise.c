@@ -29,7 +29,7 @@ int atoi(char s[])
 	int n = 0,
 		i = 0;
 
-	for(i = 0; s[i] > '0'&&s[i] < '9'; ++i)
+	for(i = 0; s[i] >= '0'&&s[i] <= '9'; ++i)
 	{
 		if(s[i] != '\0')
 		{
